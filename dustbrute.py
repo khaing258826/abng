@@ -34,8 +34,7 @@ def function(email,passw,i):
 		print('\npassword is : ',passw)
 		return True
 	return False
-os.system("clear")
-print(pyfiglet.figlet_format("Dust Brute"))
+os.system("clear"))
 print('\n******* Facebook  Bruteforce ******\n')
 print("Created by DaD.")
 
