@@ -45,7 +45,7 @@ email=input('Enter Email/phone/Username : ')
 print("\nTarget Email ID : ",email)
 userchoice = input('Do you want to use built in wordlist.(y/n)')
 if userchoice == "y":
-	frame = "passwords.txt"
+	frame = "passwords-create.txt"
 else:
 	frame = input("Enter your wordlist: ")
 file=open(frame,'r')
