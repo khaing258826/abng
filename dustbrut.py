@@ -1,6 +1,5 @@
 import requests
 import threading
-import pyfiglet
 # import urllib.request
 import os
 from bs4 import BeautifulSoup
