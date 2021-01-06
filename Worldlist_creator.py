@@ -3,7 +3,7 @@ import pyfiglet
 os.system("clear")
 print(pyfiglet.figlet_format("Dust Gen"))
 print("Dust Gen wordlist creator!")
-print("Created by Zin Yaw")
+print("Created by DaD")
 print("(File name must be in .txt extension)")
 file_name = input("Enter wordlist file name: ")
 fhand = open(file_name,"w")
