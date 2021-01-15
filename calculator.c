@@ -2,15 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 int main(){
-	int data;
-	int num;
-	int a;
-	int b;
-	int c;
-	int add;
-	int subtract;
-	int mulply;
-	int divide;
+	int data,num;
+	double a,b,c;
+	double add;
+	double subtract;
+    double mulply;
+	double divide;
 	double d,e,hyp;
 	
 	
@@ -40,21 +37,21 @@ int main(){
 	{
 		printf("ADDING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		add=a+b;
-		printf("The adding value is : %d \n\n",add);
+		printf("The adding value is : %lf \n\n",add);
 		}
 	else if(num==2)
 		{
 		printf("SUBTRACTING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		subtract=a-b;
-		printf("The subtracting value is : %d \n\n ",subtract);
+		printf("The subtracting value is : %lf \n\n ",subtract);
 	
 	
 		}
@@ -62,54 +59,54 @@ int main(){
 	{
 		printf("MULPLYING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		mulply=a*b;
-		printf("The mulplying value is : %d\n\n",mulply);
+		printf("The mulplying value is : %lf\n\n",mulply);
 	}
 	
 	else if(num==4)
 	{
 		printf("DIVIDING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		divide=a/b;
-		printf("The dividing value is : %d\n\n ",divide);
+		printf("The dividing value is : %lf\n\n ",divide);
 		}
 	else if(num==5)
 	{
 		printf("Square Root\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
-		printf("The Square Root of %d is : %lf\n\n ",c,sqrt(c));
+		scanf("%lf",&c);
+		printf("The Square Root of %lf is : %lf\n\n ",c,sqrt(c));
 		}
 		
 	else if(num==6)
 	{
 		printf("Sine Value\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
-		printf("The Sine Value of %d is : %lf\n\n ",c,sin(c*3.141593/180));
+		scanf("%lf",&c);
+		printf("The Sine Value of %lf is : %lf\n\n ",c,sin(c*3.141593/180));
 		}
 		else if(num==7)
 	{
 		printf("Sinh Value\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
-		printf("The Sinh Value of %d is : %lf\n\n ",c,sinh(c*3.141593/180));
+		scanf("%lf",&c);
+		printf("The Sinh Value of %lf is : %lf\n\n ",c,sinh(c*3.141593/180));
 		}
 		
 	else if(num==8)
 	{
 		printf("POWER\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
-		printf("The %d power %d is : %lf\n\n ",a,b,pow(a,b));
+		scanf("%lf",&b);
+		printf("The %lf power %lf is : %lf\n\n ",a,b,pow(a,b));
 		}
 	else if(num==9)
 	{
@@ -163,21 +160,21 @@ int main(){
 	{
 		printf("ADDING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		add=a+b;
-		printf("The adding value is : %d \n",add);
+		printf("The adding value is : %lf \n",add);
 		}
 	else if(num==2)
 		{
 		printf("SUBTRACTING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		subtract=a-b;
-		printf("The subtracting value is : %d\n ",subtract);
+		printf("The subtracting value is : %lf\n ",subtract);
 	
 	
 		}
@@ -185,29 +182,29 @@ int main(){
 	{
 		printf("MULPLYING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		mulply=a*b;
-		printf("The mulplying value is : %d\n",mulply);
+		printf("The mulplying value is : %lf\n",mulply);
 	}
 	
 	else if(num==4)
 	{
 		printf("DIVIDING\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
+		scanf("%lf",&b);
 		divide=a/b;
-		printf("The dividing value is : %d\n ",divide);
+		printf("The dividing value is : %lf\n ",divide);
 		}
 		else if(num==5)
 	{
 		printf("Square Root\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
-		printf("The Square Root of %d is : %lf\n ",c,sqrt(c));
+		scanf("%lf",&c);
+		printf("The Square Root of %lf is : %lf\n ",c,sqrt(c));
 		}
 		
 				
@@ -215,24 +212,24 @@ int main(){
 	{
 		printf("Sine Value\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
-		printf("The Sine Value of %d is : %lf\n ",c,sin(c*3.141593/180));
+		scanf("%lf",&c);
+		printf("The Sine Value of %lf is : %lf\n ",c,sin(c*3.141593/180));
 		}
 	else if(num==7)
 	{
 		printf("Sinh Value\n\n");
 		printf("Enter The Number :");
-		scanf("%d",&c);
+		scanf("%lf",&c);
 		printf("The Sinh Value of %d is : %lf\n ",c,sinh(c*3.141593/180));
 		}
 		else if(num==8)
 	{
 		printf("POWER\n\n");
 		printf("Enter first number :");
-		scanf("%d",&a);
+		scanf("%lf",&a);
 		printf("Enter second number :");
-		scanf("%d",&b);
-		printf("The %d power %d is : %lf\n ",a,b,pow(a,b));
+		scanf("%lf",&b);
+		printf("The %lf power %lf is : %lf\n ",a,b,pow(a,b));
 		}
 	else if(num==9)
 	{
